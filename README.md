@@ -32,6 +32,7 @@ Keys:
 - Generated numbers are from rand() function and it's between 0-9999.
 - The sorting time is printed to stderr, making sure that it does not interfere with other output.
 - When you type numbers for how big the array is, it has to be positive number in order to run without the fail. If you type <0 integer after "./4145-A1" in .sh file, yoou will get a "Error: Array size must be a positive integer."
+- Every time you execute, the time varies. 
 
 
 
