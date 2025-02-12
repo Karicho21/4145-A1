@@ -1,5 +1,5 @@
-import pandas as pd
-import matplotlib.pyplot as plt
+import pandas as panda
+import matplotlib.pyplot as pylt
 
 data = [
     ("Time taken to sort 10 elements:", 4.839e-06),
@@ -13,20 +13,20 @@ data = [
     ("Time taken to sort 10 elements:", 834.524)
 ]
 
-df = pd.DataFrame(data, columns=["Description", "Time"])
+d = panda.DataFrame(data, columns=["Description", "Time"])
 
-df["Elements"] = df["Description"].apply(lambda x: int(x.split()[1]))
+d["Elements"] = d["Description"].apply(lambda x: int(x.split()[1]))
 
-plt.plot(df["Elements"], df["Time"], marker="o", linestyle="-", color="b", label="Sort Time")
+pylt.plot(d["Elements"], d["Time"], marker="o", linestyle="-", color="b", label="Sort Time")
 
-plt.xlabel("Number of Integers")
-plt.ylabel("Time (s)")
-plt.title("Execution Time of MergeSort")
-plt.xscale('log')
-plt.yscale('log')
-plt.legend()
-plt.grid(True)
+pylt.xlabel("Number of Integers")
+pylt.ylabel("Time (s)")
+pylt.title("Execution Time of MergeSort")
+pylt.xscale('log')
+pylt.yscale('log')
+pylt.legend()
+pylt.grid(True)
 
-plt.savefig("Timelog.png", format="png")
+pylt.savefig("Timelog.png", format="png")
 
-plt.show()
+pylt.show()
