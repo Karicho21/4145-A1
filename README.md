@@ -31,15 +31,16 @@ Keys:
 
 
 Records:
-10^1 = Time taken to sort 10 elements: 4.839e-06 seconds
-10^2 = Time taken to sort 100 elements: 4.5972e-05 seconds
-10^3 = Time taken to sort 1000 elements: 0.00050224 seconds
-10^4 = Time taken to sort 10000 elements: 0.0056795 seconds
-10^5 = Time taken to sort 100000 elements: 0.0629707 seconds
-10^6 = Time taken to sort 1000000 elements: 0.67559 seconds
-10^7 = Time taken to sort 10000000 elements: 7.21877 seconds
-10^8 = Time taken to sort 100000000 elements: 77.049 seconds
-10^9 = Time taken to sort 1000000000 elements: 834.524 seconds
+- 10^1 = Time taken to sort 10 elements: 4.839e-06 seconds
+- 10^2 = Time taken to sort 100 elements: 4.5972e-05 seconds
+- 10^3 = Time taken to sort 1000 elements: 0.00050224 seconds
+- 10^4 = Time taken to sort 10000 elements: 0.0056795 seconds
+- 10^5 = Time taken to sort 100000 elements: 0.0629707 seconds
+- 10^6 = Time taken to sort 1000000 elements: 0.67559 seconds
+- 10^7 = Time taken to sort 10000000 elements: 7.21877 seconds
+- 10^8 = Time taken to sort 100000000 elements: 77.049 seconds
+- 10^9 = Time taken to sort 1000000000 elements: 834.524 seconds
 
+Insight:
 As the number of the integer increases, the time insreased as well. The increase is about 10 times more which also makes sense since we are increasing the number of integer by 10, creating linear increase.
 
