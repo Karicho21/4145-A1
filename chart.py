@@ -15,7 +15,7 @@ data = [
 
 d = panda.DataFrame(data, columns=["Description", "Time"])
 
-d["Elements"] = d["Description"].apply(lambda x: int(x.split()[1]))
+d["Elements"] = d["Description"].apply(lambda x: int(x.split()[4]))
 
 pylt.plot(d["Elements"], d["Time"], marker="o", linestyle="-", color="b", label="Sort Time")
 
@@ -27,6 +27,6 @@ pylt.yscale('log')
 pylt.legend()
 pylt.grid(True)
 
-pylt.savefig("Timelog.png", format="png")
+pylt.savefig("Timelog.pdf", format="pdf")
 
 pylt.show()
