@@ -18,7 +18,7 @@ But before you begin, make sure you have access to
 
 Steps to compile and experiment:
 
-1. Connecting hpc lab computer by "ssh hpc-student.charlotte.edu -l your-username"
+1. Connecting hpc lab computer by "ssh hpc-student.charlotte.edu -l 'your-username' "
 2. Authenticate with Duo
 3. Type "g++ A1-4145.cpp -o 4145-A1" a1 is the name of the executable file and A1-4145 is the original code name. g++ allows us to make executable file.
 4. Schedule the job by "sbatch 4145-A1.sh"
