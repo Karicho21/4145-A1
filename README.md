@@ -12,6 +12,7 @@ But before you begin, make sure you have access to
 - Access to hpc lab computer Centaurus
 - UNC Charlotte VPN if you are outside of campus or not using "eduroam" network
 - Python 3 with pandas and matplotlib libraries for chart.py
+    -if not installed type "pip install pandas" and "python -m pip install -U matplotlib" to download
 
 
 
